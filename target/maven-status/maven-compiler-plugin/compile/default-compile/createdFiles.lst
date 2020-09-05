@@ -1,0 +1,8 @@
+com\smarte\assignment\util\RegionEnum.class
+com\smarte\assignment\repository\EmployeeRepository.class
+com\smarte\assignment\beans\Department.class
+com\smarte\assignment\beans\Employee.class
+com\smarte\assignment\SmarteAssignmentApplication.class
+com\smarte\assignment\util\StatusEnum.class
+com\smarte\assignment\beans\Address.class
+com\smarte\assignment\repository\DepartmentRepository.class
