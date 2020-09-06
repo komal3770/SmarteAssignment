@@ -55,7 +55,7 @@ public class OperationService {
 				.filter(emp -> emp.getDepartment().getName().equalsIgnoreCase(deptName))
 				.filter(emp -> (isBelow && emp.getAge().compareTo(age) < 0) || (!isBelow && emp.getAge().compareTo(age) > 0))
 				.filter(emp -> (onlyActive && emp.getStatus().getValue()) || !onlyActive)
-				.filter(emp -> ctc==null || (ctc!=null && Double.compare(ctc, emp.getCtc()) > 0))
+				.filter(emp -> ctc==null || (ctc!=null && Double.compare(emp.getCtc(),ctc) > 0))
 				.collect(Collectors.toList()).stream()
 				.map(emp -> {
 					//Convert employee bean to request as per requirement
