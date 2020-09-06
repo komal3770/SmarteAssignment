@@ -11,6 +11,9 @@
 ## API Documentation & Test APIs
 - URL : http://localhost:8080/SmarteAssignment/swagger-ui.html
 
+## H2 Database
+- URL : http://localhost:8080/SmarteAssignment/h2-console
+
 ## FUNCTIONALITY ACHIEVED
 
 ### Populate the database with dummy data for 20 employees divided between 2 departments
