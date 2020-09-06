@@ -205,4 +205,24 @@ app:
     pincode: 400001
     state: Maharashtra
     country: India
+  - username: komal
+    password: test@123
+    age: 26
+    ctc: 200000
+    joiningDate: 03/01/2017
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: nykq2
+    password: test@123
+    age: 41
+    ctc: 900000
+    joiningDate: 25/01/2020
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
     
