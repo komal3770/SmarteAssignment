@@ -12,4 +12,13 @@ public enum StatusEnum {
 	public Boolean getValue() {
 		return this.value;
 	}
+	
+	public static StatusEnum getByValue(Boolean value) {
+		if(INACTIVE.value.equals(value)) {
+			return INACTIVE;
+		}
+		else {
+			return ACTIVE;
+		}
+	}
 }

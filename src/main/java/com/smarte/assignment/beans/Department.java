@@ -1,6 +1,8 @@
 package com.smarte.assignment.beans;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -12,7 +14,17 @@ public class Department {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long deptId;
 	private String name;
+	
+    @Enumerated(EnumType.STRING)
 	private RegionEnum region;
+	
+	public Department() {
+	}
+	
+	public Department(String name, RegionEnum region) {
+		this.name = name;
+		this.region = region;
+	}
 	
 	public Long getDeptId() {
 		return deptId;

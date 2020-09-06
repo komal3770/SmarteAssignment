@@ -1,11 +1,4 @@
-## SmarteAssignment
-#### A. DB Operations to be performed (JPA or JDBC code expected here):
- - Provide a method to create employee record and associate with a department then save in database. 
- - Provide a method to create department and save in database. 
-#### B. Non DB operations, here you are using Plain POJOs without JPA or JDBC:
- - Given a department find all employees above a given age (Ex: above 40). 
- - Given a department find all active employees below a given age. 
- - Given a department find all active employees below a given age having CTC greater than 2 lakh.
+# SmarteAssignment
 
 ## Project Pre-requisite 
 - Spring Boot
@@ -13,3 +6,28 @@
 - H2 Database
 - JAVA 8
 - MAVEN
+- Swagger
+
+## API Documentation & Test APIs
+- URL : http://localhost:8080/SmarteAssignment/swagger-ui.html
+
+## FUNCTIONALITY ACHIEVED
+
+### Populate the database with dummy data for 20 employees divided between 2 departments
+- Employee data from application.yml file
+- On Bean initialization copying yaml file employee data & saved to database once application starts
+
+### Create new Employee and associate with department
+- API : http://localhost:8080/SmarteAssignment/employees
+
+### Create new Department
+- API : http://localhost:8080/SmarteAssignment/departments
+
+### Find all employees by department & above given age
+- API : http://localhost:8080/SmarteAssignment/operations/deptAndAgeAbove
+
+### Find all employees by department, below given age & active status
+- API : http://localhost:8080/SmarteAssignment/operations/deptAndAgeBelow
+
+### Find all employees by department, below given age, active status & above CTC given
+- API : http://localhost:8080/SmarteAssignment/operations/deptAndAgeBelowAndCtc

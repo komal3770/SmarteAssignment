@@ -23,6 +23,20 @@ public class Employee {
 	private Date joiningDate;
 	private StatusEnum status;
 	
+	public Employee() {}
+	
+	public Employee(String userName, String password, Integer age, Double ctc, Date joiningDate,
+			StatusEnum status, Department department, Address address) {
+		this.userName = userName;
+		this.password = password;
+		this.age = age;
+		this.ctc = ctc;
+		this.joiningDate = joiningDate;
+		this.status = status;
+		this.department = department;
+		this.address = address;
+	}
+
 	@ManyToOne
 	@JoinColumn(name = "department")
 	private Department department;

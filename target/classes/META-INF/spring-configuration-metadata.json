@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.smarte.assignment.config.ApplicationProperties",
+      "sourceType": "com.smarte.assignment.config.ApplicationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.departments",
+      "type": "java.util.List<com.smarte.assignment.pojo.DepartmentRequest>",
+      "sourceType": "com.smarte.assignment.config.ApplicationProperties"
+    },
+    {
+      "name": "app.employees",
+      "type": "java.util.List<com.smarte.assignment.pojo.EmployeeRequest>",
+      "sourceType": "com.smarte.assignment.config.ApplicationProperties"
+    }
+  ],
+  "hints": []
+}

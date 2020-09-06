@@ -1,0 +1,208 @@
+server:
+  servlet:
+    context-path: /SmarteAssignment
+logging:
+  level:
+    root: INFO
+spring:
+  h2:
+    console: 
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:asignment_db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: test
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+app:
+  departments:
+  - name: Department 1
+    region: ASIA
+  - name: Department 2
+    region: EUROPE
+  - name: Department 3
+    region: NORTH_AMERIA
+  employees:
+  - username: abc
+    password: test@123
+    age: 25
+    ctc: 365000
+    joiningDate: 01/01/2015
+    
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: pqr
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: pqr
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: wqw
+    password: test@123
+    age: 29
+    ctc: 120000
+    joiningDate: 15/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: danak
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: erfsd
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: djfsk
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: mdmc
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: dsdkj
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: 4534hkkf
+    password: test@123
+    age: 30
+    ctc: 420000
+    joiningDate: 01/01/2016
+    deptId: 1
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: zxnceu3y8
+    password: test@123
+    age: 25
+    ctc: 600000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: jdsnjki489
+    password: test@123
+    age: 25
+    ctc: 600000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: dejk998984
+    password: test@123
+    age: 25
+    ctc: 600000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: se43434
+    password: test@123
+    age: 25
+    ctc: 600000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: 3r4545
+    password: test@123
+    age: 25
+    ctc: 600000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: zxcvbn
+    password: test@123
+    age: 28
+    ctc: 800000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: 3484nnfjoyo6
+    password: test@123
+    age: 28
+    ctc: 800000
+    joiningDate: 25/01/2019
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+  - username: mmnnmmmn
+    password: test@123
+    age: 26
+    ctc: 200000
+    joiningDate: 25/01/2020
+    deptId: 2
+    city: Mumbai
+    pincode: 400001
+    state: Maharashtra
+    country: India
+    

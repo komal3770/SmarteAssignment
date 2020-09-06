@@ -9,6 +9,14 @@ public class Address {
 	private String state;
 	private String country;
 	
+	public Address() {}
+	
+	public Address(String city, String pincode, String state, String country) {
+		this.city = city;
+		this.pincode = pincode;
+		this.state = state;
+		this.country = country;
+	}
 	public String getCity() {
 		return city;
 	}
